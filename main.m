@@ -3,7 +3,8 @@ clc
 clear
 close all
 
-img=imread('E:\paper1 code data\images\14_h.jpg');
+sampleImage = fullfile('images', 'sample image.jpg');
+img=imread(sampleImage);
 Ared=img(:,:,1); Agreen=img(:,:,2); Ablue=img(:,:,3);
 imgred=im2double(Ared);
 imggreen=im2double(Agreen);
